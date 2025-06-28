@@ -3,11 +3,11 @@ import AudioWaveform from "./components/Audiowaveform/Audiowaveform";
 
 const App: React.FC = () => {
   return (
+     // Example usage of AudioWaveform component
     <div className="centered-container">
-      //sample usage of AudioWaveform component
       <AudioWaveform
-        src="src\assets\takitaki.mp3"
-        style="aurevia"
+        src="src\assets\taki taki.mp3"
+        style="viridara"
         theme="dark"
         height={50}
         width={200}
