@@ -39,11 +39,15 @@
 A lightweight, developer-friendly React component for rendering real-time audio waveform visualizations with customizable themes and playback options.
 
 **Features:**
-- 🎵 Real-time waveform that reacts to audio input
-- 🎨 Two themes with four distinct styles: **Viridara**, **Solmara**, **Aurevia**, **Minimal**
-- ⏯ Playback controls: Play, Pause, Seek
-- ⚡ Adjustable speed and accurate timestamps
-- 🔧 Editable props and hooks for dev flexibility
+
+- 🎨 **4 Built-in Styles**: Choose from Viridara (green), Solmara (tangerine), Aurevia (blue), or Minimal (B&W)
+- 🌓 **Light & Dark Themes**: Seamless theme switching support
+- 🎵 **Full Audio Controls**: Play/pause, speed control, and progress tracking
+- ⚡ **Lightweight**: Minimal bundle size with maximum performance
+- 🛡 **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
+- 🎛 **Highly Customizable**: Extensive props for colors, dimensions, and behavior
+- 📱 **Responsive**: Works perfectly on all device sizes
+- 🚀 **Easy Integration**: Drop-in component for any React project
 
 Inspired by modern waveform UI designs and optimized for quick implementation.
 
