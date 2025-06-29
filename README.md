@@ -1,0 +1,221 @@
+<!-- Improved compatibility of back to top link -->
+<a id="readme-top"></a>
+
+<div align="center">
+
+<!-- Logos stacked vertically -->
+<img src="images/viridara.png" alt="Viridara Logo" width="400" height="auto" />
+<br />
+<img src="images/solmara.png" alt="Solmara Logo" width="400" height="auto" />
+<br />
+<img src="images/aurevia.png" alt="Aurevia Logo" width="400" height="auto" />
+
+</div>
+
+<br />
+
+<div align="center">
+  <h3 align="center">React Music Waveform</h3>
+
+  <p align="center">
+    An open-source NPM library for interactive audio waveform visualizations.
+    <br />
+    <a href="https://github.com/Swalih-18/react-music-waveform"><strong>View on GitHub »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.npmjs.com/package/react-waveform-visualizer">View on NPM</a>
+    &middot;
+    <a href="https://github.com/Swalih-18/react-music-waveform/issues">Report Bug</a>
+    &middot;
+    <a href="https://github.com/Swalih-18/react-music-waveform/issues">Request Feature</a>
+  </p>
+</div>
+
+
+---
+
+## 📌 About The Project
+
+A lightweight, developer-friendly React component for rendering real-time audio waveform visualizations with customizable themes and playback options.
+
+**Features:**
+- 🎵 Real-time waveform that reacts to audio input
+- 🎨 Two themes with four distinct styles: **Viridara**, **Solmara**, **Aurevia**, **Minimal**
+- ⏯ Playback controls: Play, Pause, Seek
+- ⚡ Adjustable speed and accurate timestamps
+- 🔧 Editable props and hooks for dev flexibility
+
+Inspired by modern waveform UI designs and optimized for quick implementation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🏗️ Built With
+
+* [![React][React.js]][React-url]
+* [![Typescript][Typescript]][Ts-url]
+* [![Tailwind][Tailwind]][Tailwind-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+
+## 📃 Table of Contents
+
+- [Getting Started](#getting-starte)
+- [Props Reference](#props-reference)
+- [Available Styles](#available-styles)
+- [Examples](#examples)
+- [TypeScript Support](#typescript-support)
+- [Usage with Next.js](#usage-with-nextjs)
+- [Browser Support](#browser-support)
+
+## 🧰 Getting Started
+
+```bash
+npm install react-music-waveform
+```
+
+```jsx
+import { AudioWaveform } from "react-music-waveform";
+
+const MyMusicPlayer = () => {
+  return (
+    <AudioWaveform
+      src="/path/to/your/audio.mp3"
+      style="viridara"
+      theme="light"
+      height={60}
+      showControls={true}
+      showTimestamp={true}
+      showSpeedControl={true}
+    />
+  );
+};
+```
+
+## 🛞 Props Reference
+
+```typescript
+interface AudioWaveformProps {
+  src: string;                    // Audio file URL (required)
+  style?: WaveformStyle;          // 'viridara' | 'solmara' | 'aurevia' | 'minimal'
+  theme?: Theme;                  // 'light' | 'dark'
+  height?: number;                // Component height in pixels
+  width?: number;                 // Component width in pixels
+  barSpacing?: number;            // Space between waveform bars
+  primaryColor?: string;          // Custom primary color override
+  progressColor?: string;         // Custom progress color override
+  backgroundColor?: string;       // Custom background color override
+  showBackground?: boolean;       // Show/hide background
+  showControls?: boolean;         // Show/hide play/pause controls
+  showTimestamp?: boolean;        // Show/hide time display
+  showSpeedControl?: boolean;     // Show/hide playback speed control
+  className?: string;             // Additional CSS classes
+}
+```
+
+## 🎨 Available Styles
+
+**react-music-waveform** comes with 4 beautiful pre-designed styles:
+
+| Style | Description | Preview |
+|-------|-------------|---------|
+| `viridara` | Beautiful greenish theme | 🟩 Green waveform with smooth gradients |
+| `solmara` | Vibrant tangerine theme | 🟧 Orange/tangerine colored waveform |
+| `aurevia` | Cool blue theme | 🟦 Blue waveform with modern appeal |
+| `minimal` | Clean black & white | ⬛ Standard monochrome design |
+
+Each style supports both `light` and `dark` theme variants.
+
+
+
+### Default Values
+
+| Property | Default Value |
+|----------|---------------|
+| `style` | `'minimal'` |
+| `theme` | `'light'` |
+| `height` | `60` |
+| `width` | `300` |
+| `barSpacing` | `2` |
+| `showBackground` | `true` |
+| `showControls` | `true` |
+| `showTimestamp` | `true` |
+| `showSpeedControl` | `false` |
+
+## Examples
+
+### Basic Usage
+
+```jsx
+import { AudioWaveform } from "react-music-waveform";
+
+function BasicPlayer() {
+  return (
+    <AudioWaveform
+      src="/audio/song.mp3"
+      style="viridara"
+      theme="light"
+    />
+  );
+}
+```
+
+### Customized Player
+
+```jsx
+import { AudioWaveform } from "react-music-waveform";
+
+function CustomPlayer() {
+  return (
+    <AudioWaveform
+      src="/audio/podcast.mp3"
+      style="aurevia"
+      theme="dark"
+      height={80}
+      width={500}
+      showControls={true}
+      showTimestamp={true}
+      showSpeedControl={true}
+      primaryColor="#ff6b6b"
+      progressColor="#4ecdc4"
+    />
+  );
+}
+```
+
+### Minimal Configuration
+
+```jsx
+import { AudioWaveform } from "react-music-waveform";
+
+function MinimalPlayer() {
+  return (
+    <AudioWaveform
+      src="/audio/ambient.mp3"
+      style="minimal"
+      showControls={false}
+      showTimestamp={false}
+      showBackground={false}
+    />
+  );
+}
+```
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[product-screenshot]: images/screenshot.png
+[Typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Ts-url]: https://www.typescriptlang.org/
+[React.js]:  https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
