@@ -4,11 +4,11 @@
 <div align="center">
 
 <!-- Logos stacked vertically -->
-<img src="images/viridara.png" alt="Viridara Logo" width="400" height="auto" />
+<img src="images/viridara.png" alt="Viridara Logo" />
 <br />
-<img src="images/solmara.png" alt="Solmara Logo" width="400" height="auto" />
+<img src="images/solmara.png" alt="Solmara Logo" />
 <br />
-<img src="images/aurevia.png" alt="Aurevia Logo" width="400" height="auto" />
+<img src="images/aurevia.png" alt="Aurevia Logo" />
 
 </div>
 
