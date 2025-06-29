@@ -4,18 +4,19 @@
 <div align="center">
 
 <!-- Logos stacked vertically -->
-<img src="images/viridara.png" alt="Viridara Logo" />
+
+![screenshot](./images/viridara.png)
 <br />
-<img src="images/solmara.png" alt="Solmara Logo" />
+![screenshot](./images/solmara.png)
 <br />
-<img src="images/aurevia.png" alt="Aurevia Logo" />
+![screenshot](./images/aurevia.png)
 
 </div>
 
 <br />
 
 <div align="center">
-  <h3 align="center">React Music Waveform</h3>
+  <h1 align="center"> 🎼 React Music Waveform</h3>
 
   <p align="center">
     An open-source NPM library for interactive audio waveform visualizations.
@@ -64,17 +65,6 @@ Inspired by modern waveform UI designs and optimized for quick implementation.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
-
-
-## 📃 Table of Contents
-
-- [Getting Started](#getting-starte)
-- [Props Reference](#props-reference)
-- [Available Styles](#available-styles)
-- [Examples](#examples)
-- [TypeScript Support](#typescript-support)
-- [Usage with Next.js](#usage-with-nextjs)
-- [Browser Support](#browser-support)
 
 ## 🧰 Getting Started
 
