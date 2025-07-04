@@ -12,6 +12,16 @@
     "./dist/index.css": "./dist/index.css",
     "./style.css": "./dist/index.css"
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Swalih-18/react-music-waveform.git"
+  },
+  "types": "./dist/types/index.d.ts",
+  "homepage": "https://github.com/Swalih-18/react-music-waveform#readme",
+  "bugs": {
+    "url": "https://github.com/Swalih-18/react-music-waveform/issues"
+  },
   "style": "./dist/index.css",
   "files": [
     "dist"
