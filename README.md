@@ -1,5 +1,3 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
 
 <div align="center">
 
@@ -13,23 +11,20 @@
 
 </div>
 
+
+
 <br />
 
 <div align="center">
-  <h1 align="center"> 🎼 React Music Waveform</h3>
-
+  <h1 align="center"> React Music Waveform</h3>
   <p align="center">
-    An open-source NPM library for interactive audio waveform visualizations.
-    <br />
-    <a href="https://github.com/Swalih-18/react-music-waveform"><strong>View on GitHub »</strong></a>
-    <br />
-    <br />
-    <a href="https://www.npmjs.com/package/react-waveform-visualizer">View on NPM</a>
-    &middot;
-    <a href="https://github.com/Swalih-18/react-music-waveform/issues">Report Bug</a>
-    &middot;
-    <a href="https://github.com/Swalih-18/react-music-waveform/issues">Request Feature</a>
+An open-source React + TypeScript library for customizable audio waveform visualizations.
+    <br /><br/>
+
   </p>
+
+[![npm version](https://img.shields.io/npm/v/react-music-waveform?logo=npm&color=green&labelColor=black)](https://www.npmjs.com/package/react-music-waveform) &nbsp;
+[![Star on GitHub](https://img.shields.io/badge/Star%20on-GitHub-green?logo=github&logoColor=white&labelColor=black)](https://github.com/Swalih-18/react-music-waveform) &nbsp;
 </div>
 
 
@@ -41,18 +36,16 @@ A lightweight, developer-friendly React component for rendering real-time audio 
 
 **Features:**
 
-- 🎨 **4 Built-in Styles**: Choose from Viridara (green), Solmara (tangerine), Aurevia (blue), or Minimal (B&W)
-- 🌓 **Light & Dark Themes**: Seamless theme switching support
-- 🎵 **Full Audio Controls**: Play/pause, speed control, and progress tracking
-- ⚡ **Lightweight**: Minimal bundle size with maximum performance
-- 🛡 **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
-- 🎛 **Highly Customizable**: Extensive props for colors, dimensions, and behavior
-- 📱 **Responsive**: Works perfectly on all device sizes
-- 🚀 **Easy Integration**: Drop-in component for any React project
+-  **4 Built-in Styles**: Choose from Viridara (green), Solmara (tangerine), Aurevia (blue), or Minimal (B&W)
+-  **Light & Dark Themes**: Seamless theme switching support
+-  **Full Audio Controls**: Play/pause, speed control, and progress tracking
+-  **Lightweight**: Minimal bundle size with maximum performance
+-  **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
+-  **Highly Customizable**: Extensive props for colors, dimensions, and behavior
+-  **Responsive**: Works perfectly on all device sizes
+-  **Easy Integration**: Drop-in component for any React project
 
 Inspired by modern waveform UI designs and optimized for quick implementation.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -61,8 +54,6 @@ Inspired by modern waveform UI designs and optimized for quick implementation.
 * [![React][React.js]][React-url]
 * [![Typescript][Typescript]][Ts-url]
 * [![Tailwind][Tailwind]][Tailwind-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -91,7 +82,6 @@ const MyMusicPlayer = () => {
 ```
 
 ## 🛞 Props Reference
-
 ```typescript
 interface AudioWaveformProps {
   src: string;                    // Audio file URL (required)
@@ -115,12 +105,12 @@ interface AudioWaveformProps {
 
 **react-music-waveform** comes with 4 beautiful pre-designed styles:
 
-| Style | Description | Preview |
-|-------|-------------|---------|
-| `viridara` | Beautiful greenish theme | 🟩 Green waveform with smooth gradients |
-| `solmara` | Vibrant tangerine theme | 🟧 Orange/tangerine colored waveform |
-| `aurevia` | Cool blue theme | 🟦 Blue waveform with modern appeal |
-| `minimal` | Clean black & white | ⬛ Standard monochrome design |
+| Style | Description |
+|-------|-------------|
+| `viridara` | Greenish theme | 
+| `solmara` | Vibrant tangerine theme |
+| `aurevia` | Cool blue theme | 
+| `minimal` | Standard monochrome design |
 
 Each style supports both `light` and `dark` theme variants.
 
@@ -198,7 +188,6 @@ function MinimalPlayer() {
   );
 }
 ```
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
