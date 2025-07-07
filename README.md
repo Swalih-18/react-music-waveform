@@ -1,9 +1,13 @@
 
 <div align="center">
 
-![screenshot](https://github.com/Swalih-18/react-music-waveform/blob/main/images/aurevia.png?raw=true)
-![screenshot](https://github.com/Swalih-18/react-music-waveform/blob/main/images/solmara.png?raw=true)
-![screenshot](https://github.com/Swalih-18/react-music-waveform/blob/main/images/viridara.png?raw=true)
+<!-- Logos stacked vertically -->
+
+![screenshot](./images/viridara.png)
+<br />
+![screenshot](./images/solmara.png)
+<br />
+![screenshot](./images/aurevia.png)
 
 </div>
 
@@ -20,7 +24,7 @@ An open-source React + TypeScript library for customizable audio waveform visual
   </p>
 
 [![npm version](https://img.shields.io/npm/v/react-music-waveform?logo=npm&color=green&labelColor=black)](https://www.npmjs.com/package/react-music-waveform) &nbsp;
-[![Star on GitHub](https://img.shields.io/badge/Star%20on-GitHub-green?logo=github&logoColor=white&labelColor=black)](https://github.com/yourusername/react-music-waveform) &nbsp;
+[![Star on GitHub](https://img.shields.io/badge/Star%20on-GitHub-green?logo=github&logoColor=white&labelColor=black)](https://github.com/Swalih-18/react-music-waveform) &nbsp;
 </div>
 
 
