@@ -1,7 +1,7 @@
 {
   "name": "react-music-waveform",
   "author": "mswalih",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "keywords": [
     "react",
@@ -50,10 +50,10 @@
     "url": "https://github.com/Swalih-18/react-music-waveform/issues"
   },
   "style": "./dist/index.css",
-"files": [
-  "dist/index.es.js",
-  "dist/types/index.d.ts"   
-],
+  "files": [
+    "dist/index.es.js",
+    "dist/types/index.d.ts"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -89,10 +89,8 @@
     "tailwindcss": "^4.1.10",
     "vite-plugin-dts": "^4.5.4"
   },
-
   "peerDependencies": {
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0"
-}
-
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
 }
