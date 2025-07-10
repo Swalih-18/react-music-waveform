@@ -8,4 +8,4 @@ export type {
   ThemeColors,
 } from "./types/types";
 
-export { formatTime, generateWaveformData, debounce } from "./utils/formatTime";
+export { formatTime,  debounce } from "./utils/formatTime";

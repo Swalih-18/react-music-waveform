@@ -4,32 +4,32 @@
   "version": "0.1.0",
   "type": "module",
   "keywords": [
-  "react",
-  "react-component",
-  "music",
-  "waveform",
-  "audio",
-  "react-music-waveform",
-  "music-waveform",
-  "audio-waveform",
-  "music-visualization",
-  "audio-visualization",
-  "waveform-component",
-  "react-audio",
-  "music-player",
-  "audio-player",
-  "sound-visualization",
-  "customizable",
-  "themeable",
-  "responsive",
-  "music-widget",
-  "audio-spectrum",
-  "frequency-visualization",
-  "sound-wave",
-  "music-ui",
-  "interactive",
-  "styled"
-],
+    "react",
+    "react-component",
+    "music",
+    "waveform",
+    "audio",
+    "react-music-waveform",
+    "music-waveform",
+    "audio-waveform",
+    "music-visualization",
+    "audio-visualization",
+    "waveform-component",
+    "react-audio",
+    "music-player",
+    "audio-player",
+    "sound-visualization",
+    "customizable",
+    "themeable",
+    "responsive",
+    "music-widget",
+    "audio-spectrum",
+    "frequency-visualization",
+    "sound-wave",
+    "music-ui",
+    "interactive",
+    "styled"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
@@ -50,9 +50,10 @@
     "url": "https://github.com/Swalih-18/react-music-waveform/issues"
   },
   "style": "./dist/index.css",
-  "files": [
-    "dist"
-  ],
+"files": [
+  "dist/index.es.js",
+  "dist/types/index.d.ts"   
+],
   "publishConfig": {
     "access": "public"
   },
@@ -62,13 +63,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.10",
-    "@types/node": "^24.0.3",
-    "lucide-react": "^0.518.0",
-    "tailwindcss": "^4.1.10",
-    "vite-plugin-dts": "^4.5.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@rollup/plugin-commonjs": "^28.0.6",
@@ -87,6 +82,17 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
-    "vite": "^6.3.5"
-  }
+    "vite": "^6.3.5",
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/node": "^24.0.3",
+    "lucide-react": "^0.518.0",
+    "tailwindcss": "^4.1.10",
+    "vite-plugin-dts": "^4.5.4"
+  },
+
+  "peerDependencies": {
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0"
+}
+
 }
