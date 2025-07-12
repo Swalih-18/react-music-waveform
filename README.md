@@ -30,26 +30,26 @@ An open-source React + TypeScript library for customizable audio waveform visual
 
 ---
 
-## 📌 About The Project
+## About The Project
 
 A lightweight, developer-friendly React component for rendering real-time audio waveform visualizations with customizable themes and playback options.
 
 **Features:**
 
--  **4 Built-in Styles**: Choose from Viridara (green), Solmara (tangerine), Aurevia (blue), or Minimal (B&W)
--  **Light & Dark Themes**: Seamless theme switching support
--  **Full Audio Controls**: Play/pause, speed control, and progress tracking
--  **Lightweight**: Minimal bundle size with maximum performance
--  **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
--  **Highly Customizable**: Extensive props for colors, dimensions, and behavior
--  **Responsive**: Works perfectly on all device sizes
--  **Easy Integration**: Drop-in component for any React project
+-  4 Built-in Styles: Choose from Viridara (green), Solmara (tangerine), Aurevia (blue), or Minimal (B&W)
+-  Light & Dark Themes: Seamless theme switching support
+-  Full Audio Controls: Play/pause, speed control, and progress tracking
+-  Lightweight: Minimal bundle size with maximum performance
+-  TypeScript Ready: Full TypeScript support with comprehensive type definitions
+-  Highly Customizable: Extensive props for colors, dimensions, and behavior
+-  Responsive: Works perfectly on all device sizes
+-  Easy Integration: Drop-in component for any React project
 
 Inspired by modern waveform UI designs and optimized for quick implementation.
 
 ---
 
-## 🏗️ Built With
+##Built With
 
 * [![React][React.js]][React-url]
 * [![Typescript][Typescript]][Ts-url]
@@ -57,7 +57,7 @@ Inspired by modern waveform UI designs and optimized for quick implementation.
 
 ---
 
-## 🧰 Getting Started
+##Getting Started
 
 ```bash
 npm install react-music-waveform
@@ -81,7 +81,7 @@ const MyMusicPlayer = () => {
 };
 ```
 
-## 🛞 Props Reference
+##Props Reference
 ```typescript
 interface AudioWaveformProps {
   src: string;                    // Audio file URL (required)
@@ -101,7 +101,7 @@ interface AudioWaveformProps {
 }
 ```
 
-## 🎨 Available Styles
+##Available Styles
 
 **react-music-waveform** comes with 4 beautiful pre-designed styles:
 
